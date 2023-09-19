@@ -1,4 +1,5 @@
 import { Script, translate } from '../src';
+import toBaybayin from '../src/scripts/baybayin';
 
 const testCases = [
   { script: Script.BAYBAYIN, text: 'a', expected: '\u1700' },
@@ -12,4 +13,10 @@ testCases.forEach(({ script, text, expected }) => {
     const result = translate(text, script);
     expect(result).toMatch(expected);
   });
+});
+
+it('should return a string containing the baybayin text', () => {
+  const result = toBaybayin('a');
+
+  expect(result).toMatch('\u1700');
 });

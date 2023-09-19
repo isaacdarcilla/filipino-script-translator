@@ -30,12 +30,6 @@ export const translate = (
   text: string,
   script: Script = Script.BAYBAYIN
 ): string => {
-  const scriptConverter = scriptConverters[script];
-
-  if (scriptConverter) {
-    return scriptConverter(text);
-  }
-
-  // Default to Baybayin if the script is not recognized
-  return toBaybayin(text);
+  const scriptConverter = scriptConverters[script] || toBaybayin;
+  return scriptConverter(text);
 };

@@ -1,6 +1,6 @@
 {
   "name": "filipino-script-translator",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Translate text into Baybayin, Buhid, Hanunoo and Tagbanwa scripts.",
   "main": "./lib/index.js",
   "files": [

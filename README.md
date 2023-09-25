@@ -16,6 +16,8 @@ Translate given text into Baybayin, Buhid, Hanunoo, or Tagbanwa scripts.
 npm install filipino-script-translator
 ```
 
+> NPM package: [filipino-script-translator](https://www.npmjs.com/package/filipino-script-translator)
+
 ### Usage
 
 Import the `translate()` and the `enum` from the package.

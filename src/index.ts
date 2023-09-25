@@ -33,3 +33,5 @@ export const translate = (
   const scriptConverter = scriptConverters[script] || toBaybayin;
   return scriptConverter(text);
 };
+
+export { toBaybayin, toBuhid, toHanunoo, toTagbanwa };

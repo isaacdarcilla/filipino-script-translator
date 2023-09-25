@@ -1,3 +1,9 @@
+/**
+ * Translate text to Buhid.
+ *
+ * @param text
+ * @returns string
+ */
 export default function toBuhid(text: string): string {
   const replacements: [RegExp, string][] = [
     [/o/g, 'u'],

@@ -32,10 +32,7 @@ const result = translate('maganda', Script.BUHID);
 or directly use the translator methods base on the script you want:
 
 ```js
-import toBaybayin from 'filipino-script-translator/scripts/baybayin';
-import toBuhid from 'filipino-script-translator/scripts/buhid';
-import toTagbanwa from 'filipino-script-translator/scripts/tagbanwa';
-import toHanunoo from 'filipino-script-translator/scripts/hanunoo';
+import { toBaybayin, toBuhid, toHanunoo, toTagbanwa } from 'filipino-script-translator';
 
 const result = toBaybayin('maganda');
 // Output: ᜋᜄᜈ᜔ᜇ

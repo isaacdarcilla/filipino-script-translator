@@ -2,6 +2,15 @@
 
 Translate given text into Baybayin, Buhid, Hanunoo, or Tagbanwa scripts.
 
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/) 
+[![npm version](https://badge.fury.io/js/filipino-script-translator.svg)](https://badge.fury.io/js/filipino-script-translator)
+[![codecov](https://codecov.io/gh/isaacdarcilla/filipino-script-translator/graph/badge.svg?token=GYELibxicI)](https://codecov.io/gh/isaacdarcilla/filipino-script-translator)
+![Vercel](https://vercelbadge.vercel.app/api/isaacdarcilla/filipino-script-translator)
+
+### Demonstration
+
+[![Deploy with Vercel](https://vercel.com/button)](https://ohtranslate.vercel.app/)
+
 ### Installation
 
 ```bash

@@ -55,11 +55,6 @@ const result = toBuhid('maganda');
 // Output: ᝋᝄnᝇ
 ```
 
-### Package
-
-The package is available in npmjs.com at 
-[filipino-script-translator](https://www.npmjs.com/package/filipino-script-translator).
-
 ### Testing
 
 ```

@@ -8,6 +8,8 @@ Translate given text into Baybayin, Buhid, Hanunoo, or Tagbanwa scripts.
 
 ### Demonstration
 
+> Demo deployed in Vercel
+
 [![Deploy with Vercel](https://vercel.com/button)](https://ohtranslate.vercel.app/)
 
 ### Installation
